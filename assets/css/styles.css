@@ -1,3 +1,16 @@
 * {
     background-color: #cc6b49;
 }
+
+.top {
+    color: #d2a24c;
+    font-size: 30px;
+}
+
+.hi-score {
+    float: left;
+}
+
+.counter {
+    float: right;
+}
