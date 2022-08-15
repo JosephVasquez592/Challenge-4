@@ -1,16 +1,77 @@
 * {
-    background-color: #cc6b49;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .top {
-    color: #d2a24c;
+    color: aliceblue;
     font-size: 30px;
+    justify-content: space-between;
+    display: flex;
+    background-color: darkcyan;
 }
 
-.hi-score {
-    float: left;
+.top a {
+    text-decoration: none;
+    color: goldenrod;
+    background-color: darkcyan;
 }
 
 .counter {
-    float: right;
+    background-color: darkcyan;
+}
+
+#time {
+    background-color: darkcyan;
+}
+
+.intro {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px auto 20px auto;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.fancy {
+    color: springgreen;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#game-over {
+    margin: 70px auto auto auto;
+}
+
+button {
+    border-radius: 10px;
+    background-color: lightseagreen;
+    margin: 10px auto 10px auto;
+    padding: 3px;
+    font-size: 20px;
+    display: block;
+    box-shadow: 3px 5px;
+}
+
+input {
+    border: 3px solid black;
+    border-radius: 5px;
 }

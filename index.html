@@ -11,31 +11,29 @@
 
     <body>
         <div class="page">
-        <div class="top">
-            <div class="hi-score"><a href="highscores.html">Leaderboard</a></div>
-            <div class="counter">Time: <span id="time">0</span></div>
-        </div>
+            <div class="top">
+                <div class="hi-score"><a href="highscores.html">Hall of Fame</a></div>
+                <div class="counter">Time: <span id="time">0</span></div>
+            </div>
 
-        <div class="intro">
-            <h1>Do You Accept the Challenge?</h1>
-            <p>Answer the questions within the time limit!</p>
-            <button id="begin">Accept Challenge</button>
-        </div>
+            <div id="home" class="intro">
+                <h1>Do You Accept the Challenge?</h1>
+                <p>Answer the questions within the time limit!</p>
+                <button id="begin">Accept Challenge</button>
+            </div>
 
-        <div id="quiz" class="hidden">
-            <h2 id="question-title"></h2>
-            <div id="selections" class="selections"></div>
-        </div>
+            <div id="quiz" class="hidden">
+                <h2 id="title"></h2>
+                <div id="selections" class="selections"></div>
+            </div>
 
-        <div id="game-over" class="hidden">
-            <h2>You've Reached the End!</h2>
-            <p>You scored <span id="score"></span>!</p>
-            <p>Add Your Name to the Hall of Fame! <input type="text" id="record"></p>
-        </div>
-
-        <div class="bottom">
-
-        </div>
+            <div id="game-over" class="hidden">
+                <h2>You've Reached the End!</h2>
+                <p class="fancy">You scored <span id="score"></span>!</p>
+                <p>Add Your Name to the Hall of Fame! <input type="text" id="record">
+                <button id="save">Etch In Stone</button>
+                </p>
+            </div>
         </div>
         <script src="./assets/js/questions.js"></script>
         <script src="./assets/js/script.js"></script>

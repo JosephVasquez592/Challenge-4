@@ -1,3 +1,31 @@
 * {
-    background-color: #6f5643;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+ul {
+    list-style: none;
+    margin: 5px auto 10px auto;
+}
+
+li {
+    font-size: 20px;
+    background-color: chartreuse;
+    width: 100%;
+}
+
+li:nth-child(odd) {
+    background-color: cadetblue;
+}
+
+button {
+ font-size: 15px;
+ border-radius: 7px;
+ background-color:lightblue;
+ padding: 3px;
 }

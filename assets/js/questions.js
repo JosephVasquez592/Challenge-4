@@ -19,4 +19,4 @@ var questions = [
         c: ['They are all acronyms', 'They are all used for designing webpages', 'They all have specific rules', 'All of the above'],
         a: 'All of the above',
     }
-]
+];
